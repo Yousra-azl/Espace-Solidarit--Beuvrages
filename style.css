@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+
+.navigateur{
+    display: flex;
+    justify-content: center;
+    background-color:#f3f3f3;
+
+}
+/* 
+nav{
+    width: 20%;
+    height: 110em;
+    font-family: "PT Sans", sans-serif;
+    font-weight: lighter;
+    position: absolute;
+} */
+
+/* .accueil{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+#solidarité{
+    width: 15%;
+    cursor: pointer;
+}
+.nav-item {
+    flex: 1;
+}
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.accueil {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 20px;
+    width: 100%;
+    gap: 130px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+nav ul{
+    color: black;
+    text-transform: uppercase;
+    margin-top: 5em;
+}
+
+nav li{
+    list-style: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+/* main */
+.image1{
+    width: 35%;
+}
+p{
+    
+    font-size: 25px;
+    margin-top: 70px;
+}
+.parag1{
+    display: flex;
+}
+.presentation-assoc{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 70px;
+    
+}
