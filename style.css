@@ -55,8 +55,8 @@ nav{
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    margin-left: 20px;
+    justify-content: flex-end;
+    margin-right: 40px;
     width: 100%;
     gap: 90px;
     font-size: 20px;
@@ -83,12 +83,18 @@ nav a {
 /* main */
 .image1 {
     width: 35%;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 15px;
 }
 
+h1{
+    font-size: 40px;
+}
 p {
 
     font-size: 25px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .parag1 {
@@ -102,67 +108,71 @@ p {
     margin-top: 70px;
 
 }
+
 /* Close bouton */
-.sidenav{
+.sidenav {
     display: none;
 }
+
 .sidenav .close {
     display: none;
     position: absolute;
     top: 0;
     right: 20px;
     font-size: 36px;
-  }
-  
-  
-  /* Icône burger */
-  .burger-icon span {
+}
+
+
+/* Icône burger */
+.burger-icon span {
     display: none;
     width: 20px;
     height: 3px;
     background-color: gray;
     margin: 3px 0;
     border-radius: 25%;
-  }
-  /* footer */
-  footer{
+}
+
+/* footer */
+footer {
     border-top: 0.1em solid;
     position: absolute;
     width: 100%;
     top: 92%;
-    
-
 }
-.footer__liens{
+
+.footer__liens {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-   font-size: 120%;
+    font-size: 120%;
     gap: 2em;
     list-style: none;
     padding-right: 1em;
-    padding-top: 1.5%;  
+    padding-top: 1.5%;
 }
 
-.footer__liens__lien{
+.footer__liens__lien {
     text-decoration: none;
     color: black;
-    font-size: 20px; 
+    font-size: 20px;
     text-transform: uppercase;
-    
+
 }
-.footerliens{
+
+.footerliens {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-   font-size: 120%;
+    font-size: 120%;
     gap: 2em;
     list-style: none;
     padding-right: 1em;
     border-top: 0.1em solid;
 
 }
-.footerlienslien{
+
+.footerlienslien {
     text-decoration: none;
 }
 
