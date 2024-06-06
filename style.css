@@ -9,26 +9,13 @@
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
-
 }
 
-/* 
-nav{
-    width: 20%;
-    height: 110em;
-    font-family: "PT Sans", sans-serif;
-    font-weight: lighter;
-    position: absolute;
-} */
-
-/* .accueil{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-} */
+.association {
+    width: 100%;
+}
 #solidarité {
-    width: 300px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -60,7 +47,7 @@ nav{
     width: 100%;
     gap: 90px;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 23px;
 }
 
 nav ul {
@@ -81,6 +68,9 @@ nav a {
 }
 
 /* main */
+main{
+    padding: 0 30px;
+}
 .image1 {
     width: 35%;
     margin-top: 70px;
@@ -91,10 +81,16 @@ nav a {
 h1{
     font-size: 40px;
 }
-p {
-
+p{
     font-size: 25px;
+    
+}
+.p1 {
     margin-top: 50px;
+}
+.p2{
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .parag1 {
@@ -132,13 +128,30 @@ p {
     margin: 3px 0;
     border-radius: 25%;
 }
+/* evenement */
+h2{
+    font-size: 35px;
+    color: #A07E37;
+    padding: 10px 0;
+}
+.p2{
+    /* width: 50%; */
+}
+.journée-femme{
+    display: flex;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.img1, .img2{
+    width: 50%;
+}
 
 /* footer */
-footer {
+.footer{
     border-top: 0.1em solid;
     position: absolute;
     width: 100%;
-    top: 92%;
+    padding: 10px 0;
 }
 
 .footer__liens {
@@ -149,7 +162,6 @@ footer {
     gap: 2em;
     list-style: none;
     padding-right: 1em;
-    padding-top: 1.5%;
 }
 
 .footer__liens__lien {
