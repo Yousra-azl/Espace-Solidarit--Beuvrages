@@ -14,6 +14,7 @@
 .association {
     width: 100%;
 }
+
 #solidarité {
     width: 200px;
     cursor: pointer;
@@ -68,9 +69,10 @@ nav a {
 }
 
 /* main */
-main{
+main {
     padding: 0 30px;
 }
+
 .image1 {
     width: 35%;
     margin-top: 70px;
@@ -78,17 +80,20 @@ main{
     margin-left: 15px;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
-p{
+
+p {
     font-size: 25px;
-    
+
 }
+
 .p1 {
     margin-top: 50px;
 }
-.p2{
+
+.p2 {
     margin-top: 20px;
     font-size: 30px;
 }
@@ -103,11 +108,13 @@ p{
     width: 60%;
     margin-top: 70px;
 }
-.image2{
+
+.image2 {
     width: 100%;
     margin-bottom: 25px;
 }
-ul{
+
+ul {
     font-size: 25px;
     padding: 0 30px;
 }
@@ -135,41 +142,67 @@ ul{
     margin: 3px 0;
     border-radius: 25%;
 }
+
 /* evenement */
-h2{
+h2 {
     font-size: 35px;
     color: #A07E37;
     padding: 10px 0;
 }
-.journée-femme{
+
+.journée-femme {
     display: flex;
     gap: 5px;
     padding-bottom: 10px;
 }
-.img1, .img2{
+
+.img1,
+.img2 {
     width: 50%;
 }
+
 /* contact */
-.contact{
+.contact {
     text-align: center;
     margin-top: 50px;
 }
-h3{
+
+h3 {
     font-size: 45px;
-   
 }
-.facebook{
+
+.class1 a,
+.class2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.class1 {
+    width: 30%;
+}
+
+.class2 {
+    width: 68%;
+}
+
+.classes {
+    display: flex;
+    gap: 5px;
+}
+
+.facebook {
     width: 3%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-.adresse{
+
+.adresse {
     width: 59%;
 }
 
 /* footer */
-.footer{
+.footer {
     border-top: 0.1em solid;
     position: absolute;
     width: 100%;
