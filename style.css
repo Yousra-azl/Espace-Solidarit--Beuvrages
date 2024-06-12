@@ -119,6 +119,13 @@ ul {
     padding: 0 30px;
 }
 
+.contact1{
+    display: flex;
+    margin-top: 50px;
+}
+.ctc1 img{
+    width: 10%;
+}
 /* Close bouton */
 .sidenav {
     display: none;
