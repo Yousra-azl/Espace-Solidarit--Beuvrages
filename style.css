@@ -123,9 +123,6 @@ ul {
     display: flex;
     margin-top: 50px;
 }
-.ctc1 img{
-    width: 10%;
-}
 /* Styles pour le menu burger */
 .sidenav {
     height: 100%;
@@ -206,10 +203,35 @@ main {
 .contact1 {
     flex-direction: column;
 }
-.adresse {
-    width: 100% ;
-  } 
+.class1, .class2 {
+    flex-direction: column;
+    width: 100%;
 }
+.adresse {
+    width: 100%;
+}
+.classes1{
+    flex-direction: column;
+}
+.class1, .class2 {
+    flex-direction: column;
+    width: 100%;
+}
+.liens{
+    width: 100%;
+}
+}
+
+.ctc1{
+    margin-top: 100px ;
+    padding-left: 50px;
+}
+.ctc2{
+    margin-top: 80px;
+    width: 600px;
+}
+
+
 
 /* evenement */
 h2 {
@@ -235,10 +257,10 @@ h2 {
     margin-top: 50px;
 }
 .facebook {
-    width: 3%;
+    
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    width: 10%;
+    margin-left: 150px;
 }
 
 .adresse {
