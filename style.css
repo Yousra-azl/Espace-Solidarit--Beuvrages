@@ -126,39 +126,8 @@ ul {
 
 /* Styles pour le menu burger */
 .sidenav {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    right: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    display: none;
 }
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #A07E37;
-    display: block;
-    transition: 0.3s;
-    text-align: center;
-}
-
-.sidenav a:hover {
-    color: #333;
-}
-
-.sidenav .close {
-    position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 36px;
-}
-
 .burger__icon {
     display: none;
 }
@@ -319,6 +288,40 @@ h3 {
     .accueil {
         display: none;
     }
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 60%;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #A07E37;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+    
+    .sidenav a:hover {
+        color: #333;
+    }
+    
+    .sidenav .close {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 36px;
+    }
 
     /* Styles pour l'icône burger */
     .burger-icon {
@@ -364,6 +367,12 @@ h3 {
 
     .contact1 {
         flex-direction: column;
+        text-align: center;
+    }
+    .facebook{
+        display: inline;
+        text-align: center;
+        margin: 0;
     }
 
     .adresse {
@@ -393,6 +402,7 @@ h3 {
     .ctc1, .ctc2{
         margin: 0;
         padding: 0;
+        width: 100%;
     }
 }
 
