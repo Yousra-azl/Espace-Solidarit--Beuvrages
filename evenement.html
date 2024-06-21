@@ -31,6 +31,34 @@
                 <li class="nav-item"> Contact </li>
             </a>
         </ul>
+        <!--bouton burger-->
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+
+            <a href="index.html">
+                <li class="nav-item">Accueil</li>
+            </a>
+            <a href="evenement.html">
+                <li class="nav-item"> Evènements </li>
+            </a>
+            <a href="produits.html">
+                <li class="nav-item"> Produits </li>
+            </a>
+            <a href="apropos.html">
+                <li class="nav-item"> À Propos </li>
+            </a>
+            <a href="contact.html">
+                <li class="nav-item"> Contact </li>
+            </a>
+        </div>
+        <!--icon bouton burger-->
+        <a href="#" id="openBtn" class="burger__icon">
+            <span class="burger-icon">
+                <span class="color"></span>
+                <span class="color"></span>
+                <span class="color"></span>
+            </span>
+        </a>
     </nav>
     <main>
         <p class="p2">
@@ -124,7 +152,15 @@
             </ul>
         </div>
     </footer>
+    <script>
+        document.getElementById("openBtn").addEventListener("click", function() {
+            document.getElementById("mySidenav").style.width = "100%";
+        });
 
+        document.getElementById("closeBtn").addEventListener("click", function() {
+            document.getElementById("mySidenav").style.width = "0";
+        });
+    </script>
 </body>
 
 </html>
